@@ -1,26 +1,27 @@
+
 # vimrcstock
-Vimに関すること
 
-主に自分のvimrcをバックアップする目的で作りました．
-基本的にVimを使うので，VirtualBoxやローカルインストールしたときに楽に環境構築するのが狙いです．現時点では主に以下のファイルが登録されています
+vimrc各種のインストール用
 
-'.vimrc'
 
-vim/gvim用
+- .vimrc
 
-'.gvimrc'
+vim/gvim用(Win32, legacy)
 
-gvim固有の(ex.ウィンドウサイズなど)設定を書いたもの．
+- .gvimrc
 
-'forservervimrc'
+GVim固有の(ex.ウィンドウサイズなど)設定を書いたもの、Win32用
 
-リネーム必須．server系用，但しVirtualBox向けに書いてるのでローカルでは動作しない可能性がある．現時点では.vimrcと特に変わりはない．
+- `init.lua`
 
-'myexrc'
+neovim用。linuxの場合は$HOME/.config/nvimに、Windowsの場合は~\AppData\nvimにそれぞれ配置。
+
+- myexrc
 
 nocompatibleなりしたvim-tiny用だが空気．だが一応残す．
 
-'README.md'
+---
 
-これ．markdownはまだ書けないのでそのまま書いてる．
+[TODO]
 
+- [ ] ginit.vimの追加
